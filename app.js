@@ -2,10 +2,10 @@ const app = require('./config/server');
 const port = require('./config/env').PORT;
 
 
-app.listen(5050,() =>{
+app.listen(3030,() =>{
 
 console.log ("+---------------------------------------------------------------+");
-console.log ('| * * * *          Server listening in port ' + 5050  +'         * * * *|');
+console.log ('| * * * *          Server listening in port ' + 3030  +'         * * * *|');
 console.log ('+---------------------------------------------------------------+');
 console.log('░░░░░░░░▄██▄░░░░░░▄▄░░    *    ░░░░░░░░▄██▄░░░░░░▄▄░░');
 console.log('░░░░░░░▐███▀░░░░░▄███▌    *    ░░░░░░░▐███▀░░░░░▄███▌');
