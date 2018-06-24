@@ -8,4 +8,5 @@ FROM node:8.11.1
 ENV NODE_ENV production
 COPY --from=0 /home/app /home/app
 WORKDIR /home/app
+RUN apt-get mongodb && service mongod start
 ENTRYPOINT [ "npm", "start" ]
